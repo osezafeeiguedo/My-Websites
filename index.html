@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Station</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Music Station</h1>
+        <p>Your favourite music,all in one place</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Songs</a>
+        <a href="#">Artists</a>
+        <a href="#">Playlist</a>
+    </nav>
+    <main>
+        <section class="welcome">
+            <h2>Welcome to Music Station</h2>
+            <p>Listen to your favourite songs and enjoy the music!</p>
+        </section>
+        <section class="songs" aria-label="Songs">
+            <article class="song-card">
+                <div class="music-icon" aria-hidden="true">🎧</div>
+                <h3>Dreams</h3>
+                <p>Music Artist</p>
+                <button type="button">▶ Play</button>
+            </article>
+            <article class="song-card">
+                <div class="music-icon" aria-hidden="true">🎵</div>
+                <h3>Summer Vibes</h3>
+                <p>Music Artist</p>
+                <button type="button">▶ Play</button>
+            </article>
+            <article class="song-card">
+                <div class="music-icon" aria-hidden="true">🎶</div>
+                <h3>Good Times</h3>
+                <p>Music Artist</p>
+                <button type="button">▶ Play</button>
+            </article>
+        </section>
+        <section class="player" aria-label="Music player">
+            <h2>🎵 Now Playing</h2>
+            <h3>Dreams</h3>
+            <p>Music Artist</p>
+            <input type="range" min="0" max="100" value="40" aria-label="Track progress">
+            <div class="controls">
+                <button type="button" aria-label="Previous track">⏮</button>
+                <button type="button" aria-label="Play">▶</button>
+                <button type="button" aria-label="Next track">⏭</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>@ 2026 Music Station| Enjoy Your Music</p>
+    </footer>
+</body>
+
+</html>
